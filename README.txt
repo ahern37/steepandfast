@@ -8,6 +8,10 @@ http-server -c-1
 after adding a new file until entering:
 git add .
 
-"example of making git commit"
+"example of making git commit -evertime-"
 git commit -am'made elipse bigger' 
-git push
+git push 
+
+
+published and viewable:
+https://ahern37.github.io/steepandfast/
