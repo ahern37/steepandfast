@@ -1,11 +1,25 @@
 function setup() {
   createCanvas(1000, 1000);
-  background(125,50,115)
-  const size = width * .15;
-  translate(width/2, height/2);
-  triangle(0, -100, 100, 100, -100, 100);
+  background(0)
+	const size = width * 0.3;
+	ellipse(width/2, height/2, 250, 250);
+	line(30, 20, 85, 75);
+	strokeWeight(20,20);
+	stroke(47, 115, 125);
 }
 
 function draw() {
-  ellipse(mouseX, mouseY, 60, 60);
+	line(0, 1000, 1000, 0);
+	stroke(47,115, 125);
+
+beginShape();
+  vertex(184, 95);
+  quadraticVertex(227, 398, 282, 96);
+  bezierVertex(430, 360, 125, 352, 138, 216);
+endShape(CLOSE)
+
+
+	
+
+  //pirntln(mouseX, mouseY);
 }
